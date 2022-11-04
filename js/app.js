@@ -14,10 +14,13 @@ let itemPrice = itemPrices[1];
 console.log(itemPrice);
 
 itemNames.push(`Net`);
+console.log(itemNames[3]);
 
 itemPrices.push(`4`);
+console.log(itemPrices[3]);
 
 inStock.push(`false`);
+console.log(inStock[3]);
 
 let lastitemName = itemNames.pop(3);
 console.log(lastitemName);
