@@ -7,21 +7,21 @@ console.log(itemPrices);
 let inStock = [true, false, true];
 console.log(inStock);
 
+// First value would be the 2nd element of my Array.  If I wanted the 1st element then index is 0.
 let itemName = itemNames[1];
 console.log(itemName);
 
 let itemPrice = itemPrices[1];
 console.log(itemPrice);
 
+// Push add an item to my Array.
 itemNames.push(`Net`);
-console.log(itemNames[3]);
 
 itemPrices.push(`4`);
-console.log(itemPrices[3]);
 
 inStock.push(`false`);
-console.log(inStock[3]);
 
+// Pop removed last item in my Array and created new variable
 let lastitemName = itemNames.pop(3);
 console.log(lastitemName);
 
